@@ -4,10 +4,21 @@
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "false",
-			"installGradle": "false"
+			"version": "17",
+			"installMaven": "true",
+			"installGradle": "true"
 		}
 	},
-	 "remoteUser": "root"
+
+	"customizations": {
+		"vscode": {
+		  "extensions": ["mongodb.mongodb-vscode"]
+		}
+	},
+	
+	"runArgs": [
+		"--network=host"
+	],
+
+	"remoteUser": "root"
 }

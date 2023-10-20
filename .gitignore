@@ -26,5 +26,6 @@ replay_pid*
 
 build
 .gradle
+!gradle/**/*.jar
 .vscode
 bin
