@@ -6,4 +6,6 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gp
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo mkdir -p /data/db
+sudo mongod --replSet local00
+sudo mongosh --eval "rs.initiate();"
 sudo mongorestore --gzip -d demo src/main/resources/dumps/

@@ -4,24 +4,26 @@ Dieser Container bringt eine Entwicklungsumgebung für Java mit.
 
 Hands-On Aufgaben:
 
-- Aufsetzen einer MongoDB (Community)
--- Konfiguration als ReplicaSet (Standalone)
--- Einspielen eines Datenbank-Dumps
+- Aufsetzen einer MongoDB (Community) +
+-- Konfiguration als ReplicaSet (Standalone) +
+-- Einspielen eines Datenbank-Dumps +
 
-- ??? Schema ausdenken?
+- Datenstruktur +
+-- Models Anhand der gegeben Datenstruktur aus den Dumps erstellen
+-- MongoRepositories für die beiden Collections anlegen
 
 - Anlegen und Speichern von Daten
 -- Shell bzw. VSCode Plugin MongoDB
 -- Beispieldaten einspielen
 
 - Einfaches Laden von Daten​
--- finde Sven
+-- finde Bob
 -- finde alle Neider ohne Favoriten
 -- finde alle Jünglinge mit mindestens 2 Favoriten die nach 2000 geboren sind
 -- finde die Brauerei mit dem größten Angebot
 
 - Einfache Datenmanipulation​ //TODO
--- Ändere den Nachnamen des von Sven zu "Dr. Ing. Fest"
+-- Ändere den Nachnamen Bobs zu "Dr. Ing. Fest"
 -- Lösche Nutzer 42
 -- Füge "Double Bastard Ale" zu den Favoriten von Sven hinzu
 
