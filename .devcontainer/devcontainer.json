@@ -26,5 +26,6 @@
 	"runArgs": [
 		"--network=host"
 	],
-	"remoteUser": "root"
+	"remoteUser": "root",
+	"postCreateCommand": "./.devcontainer/script.sh"
 }
