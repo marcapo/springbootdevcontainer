@@ -9,17 +9,15 @@ Hands-On Aufgaben:
 -- Einspielen eines Datenbank-Dumps +
 
 - Datenstruktur +
--- Models Anhand der gegeben Datenstruktur aus den Dumps erstellen
--- MongoRepositories für die beiden Collections anlegen
+-- Models Anhand der gegeben Datenstruktur aus den Dumps erstellen +
+-- MongoRepositories für die beiden Collections anlegen +
 
 - Anlegen und Speichern von Daten
--- Shell bzw. VSCode Plugin MongoDB
--- Beispieldaten einspielen
-
-- Einfaches Laden von Daten​
--- finde Bob
--- finde alle Neider ohne Favoriten
--- finde alle Jünglinge mit mindestens 2 Favoriten die nach 2000 geboren sind
+-- Shell bzw. VSCode Plugin MongoDB +
+-- finde Bob +
+-- füge Bob hinzu +
+-- finde alle Neider ohne Favoriten +
+-- finde alle Jünglinge mit mindestens 2 Favoriten die noch nicht 16 sind +
 -- finde die Brauerei mit dem größten Angebot
 
 - Einfache Datenmanipulation​ //TODO
