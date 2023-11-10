@@ -18,28 +18,29 @@ Hands-On Aufgaben:
 -- füge Bob hinzu +
 -- finde alle Neider ohne Favoriten +
 -- finde alle Jünglinge mit mindestens 2 Favoriten die noch nicht 16 sind +
--- finde die Brauerei mit dem größten Angebot
 
 - Einfache Datenmanipulation​ //TODO
--- Ändere den Nachnamen Bobs zu "Dr. Ing. Fest"
--- Lösche Nutzer 42
--- Füge "Double Bastard Ale" zu den Favoriten von Sven hinzu
+-- Ändere den Nachnamen Bobs zu "Dr. Ing. Fest" +
+-- Lösche den Schmäher Peter Biedermann +
+-- Füge "Double Bastard Ale" zu den Favoriten von Bob hinzu +
 
 - Projektionen​
--- zeige Name und Favoriten der 3 ältesten Someliers an
--- wie alt ist Sven eigentlich?
+-- zeige Name und Favoriten der 3 ältesten Someliers an +
+-- Wann wurde Bob geboren? +
 
 - GeoQueries​
--- Umkreissuche aller Liebhaber mit mindestens einem Favoriten um die Stadt TODO im Radius von 25km?
+-- Umkreissuche aller Liebhaber mit mindestens einem Favoriten um Bobs Heimatstadt im Radius von 250km sortiert nach Entfernung? +
 
 - NestedElement Queries​
--- suche nach Personen, die Ausschließlich Weißbier verköstigen
+-- suche nach Personen, die ausschließlich IPA verköstigen +
 
 - Benutzen der Aggregation Pipeline​
--- erstelle eine Übersicht der 100 beliebtesten Biere
--- finde alle Pils-Trinker und deren Lieblingsbrauereien
--- verjünge alle Personen mit mindestens 3 Favoriten um 2 Jahre
--- liste den nähesten Kunden einer Brauerei
+-- finde die Brauerei mit dem größten Angebot +
+-- wie alt ist Bob eigentlich? +
+-- erstelle eine Übersicht der 10 beliebtesten Biere
+-- finde die 100 ältesten le Stout-Trinker und deren Lieblingsbrauereien +
+-- verjünge alle Doppelbock-Trinker mit mindestens 2 Favoriten um 2 Jahre +
+-- Welche Biere finden den meisten Absatz um Bobs Heimat herum in einer Region von 250km? +
 
 - Query Analyse und Optimierung
 -- finde die 10 jüngsten Ale-Genießer
