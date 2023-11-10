@@ -1,13 +1,31 @@
 {
 	"name": "Java",
-	"image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
-
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
+			"version": "17",
 			"installMaven": "false",
 			"installGradle": "false"
 		}
 	},
-	 "remoteUser": "root"
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mongodb.mongodb-vscode"
+			],
+			"settings": {
+				"mdb.confirmDeleteDocument": false,
+				"mdb.confirmRunAll": false,
+				"mdb.defaultLimit": 100,
+				"mdb.sendTelemetry": false,
+				"mdb.showMongoDBPlaygrounds": false,
+				"mdb.useDefaultTemplateForPlayground": false
+			}
+		}
+	},
+	"runArgs": [
+		"--network=host"
+	],
+	"remoteUser": "root",
+	"postCreateCommand": "./.devcontainer/script.sh"
 }
