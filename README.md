@@ -32,6 +32,7 @@ Hands-On Aufgaben:
 -- Umkreissuche aller Liebhaber mit mindestens einem Favoriten um Bobs Heimatstadt im Radius von 250km sortiert nach Entfernung?
 
 - NestedElement Queries​
+-- Welche Biere verwenden 'Cluster' Hopfen und 'Vicotry' Malz?
 -- suche nach Personen, die ausschließlich IPA verköstigen
 
 - Benutzen der Aggregation Pipeline​
