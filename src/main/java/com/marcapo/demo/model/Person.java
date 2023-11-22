@@ -21,11 +21,9 @@ public class Person {
 
     private Address address;
 
-    private String birthDate;
+    private Instant birthDate;  // or usage of Date
 
     private String phoneNumber;
-
-    private String sex;
 
     private List<String> favoriteBeers = new ArrayList<>();
 
