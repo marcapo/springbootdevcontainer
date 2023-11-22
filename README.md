@@ -32,14 +32,14 @@ Hands-On Aufgaben:
 -- Umkreissuche aller Liebhaber mit mindestens einem Favoriten um Bobs Heimatstadt im Radius von 250km sortiert nach Entfernung?
 
 - NestedElement Queries​
--- Welche Biere verwenden 'Cluster' Hopfen und 'Vicotry' Malz?
 -- suche nach Personen, die ausschließlich IPA verköstigen
+-- Welche Biere verwenden 'Cluster' Hopfen und 'Vicotry' Malz?
 
 - Benutzen der Aggregation Pipeline​
 -- finde die Brauerei mit dem größten Angebot
 -- wie alt ist Bob eigentlich?
 -- erstelle eine Übersicht der 10 beliebtesten Biere
--- finde die 100 ältesten le Stout-Trinker und deren Lieblingsbrauereien
+-- finde die 100 ältesten Stout-Trinker und deren Lieblingsbrauereien
 -- verjünge alle Doppelbock-Trinker mit mindestens 2 Favoriten um 2 Jahre
 -- Welche Biere finden den meisten Absatz um Bobs Heimat herum in einer Region von 250km?
 

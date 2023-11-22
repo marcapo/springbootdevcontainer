@@ -11,5 +11,11 @@ import lombok.Data;
 @Data
 @Document
 public class Brewery {
+    @Id
+    private String id;
+
+    private String name;
+
+    private List<Beer> beers = new ArrayList<>();
 
 }

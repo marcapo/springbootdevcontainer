@@ -25,8 +25,19 @@ public class DemoService {
     private final PersonRepository personRepository;
     private final MongoTemplate mongoTemplate;
 
-    public void doSomeAwesomeStuff() {
+    /**
+     * 
+     */
+    public void doSomeAwsomeStuff() {
 
+        // show document count
+        log.info(String.valueOf(personRepository.count()));
+        log.info(String.valueOf(breweryRepository.count()));
+
+        // search Bob
+        FindIterable test = mongoTemplate.getCollection("person").find(Document.parse("{ \"firstName\" : \"Sven\"}"));
+        System.out.println("asdf");
+        log.info(test.first().toString());
     }
 
 }

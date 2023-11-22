@@ -12,4 +12,19 @@ import lombok.Data;
 @Document
 public class Person {
 
+    @Id
+    private String id;
+
+    private String firstName;
+
+    private String lastName;
+
+    private Address address;
+
+    private Instant birthDate;  // or usage of Date
+
+    private String phoneNumber;
+
+    private List<String> favoriteBeers = new ArrayList<>();
+
 }
