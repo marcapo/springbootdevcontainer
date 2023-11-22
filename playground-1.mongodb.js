@@ -1,6 +1,21 @@
 //
 // REQUIREMENT: MongoDB 7.x
 //
+
+// setup db
+sudo apt-get install -y mongodb-org // install
+sudo mkdir -p /data/db // create data folder
+echo "START MONGODB"
+sudo mongod --replSet local00 & // start a replicaSet as background process
+sudo sleep 5 // wait for startup
+echo "INIT REPLICA"
+sudo mongosh --eval "rs.initiate();" // init the replica
+sudo sleep 5
+echo "RESTORE"
+sudo mongorestore --gzip -d demo src/main/resources/dumps/ // dump is zipped
+//
+
+
 /* global use, db */
 // MongoDB Playground
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
